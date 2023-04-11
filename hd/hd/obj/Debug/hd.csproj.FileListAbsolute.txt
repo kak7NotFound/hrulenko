@@ -1,0 +1,12 @@
+C:\Users\kak7\RiderProjects\hd\hd\bin\Debug\hd.exe.config
+C:\Users\kak7\RiderProjects\hd\hd\bin\Debug\hd.exe
+C:\Users\kak7\RiderProjects\hd\hd\bin\Debug\hd.pdb
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.csproj.AssemblyReference.cache
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.csproj.SuggestedBindingRedirects.cache
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.Properties.Resources.resources
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.csproj.GenerateResource.cache
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.csproj.CoreCompileInputs.cache
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.exe
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.pdb
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.Form1.resources
+C:\Users\kak7\RiderProjects\hd\hd\obj\Debug\hd.forms.MainForm.resources
