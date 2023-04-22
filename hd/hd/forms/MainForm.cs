@@ -5,11 +5,21 @@ namespace hd.forms
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        public MainForm(String name, String login)
         {
             InitializeComponent();
-            dataGridView1.Rows.Add("Пожарная безопасность","20","Не пройдено");
-            dataGridView1.Rows.Add("Станок ММУ13-Л3","80","Не пройдено");
+            label1.Text = @"Имя: " + name; 
+            using (var reader =
+                Form1.database.GetReader($"select * from tests"))
+            {
+                while (reader.Read())
+                {
+                    dataGridView1.Rows.Add(reader.GetValue(0).ToString(), Test.QuestionCount(reader.GetValue(1).ToString()), "Не пройдено");
+                }
+            }
+
+            label2.Text = @"Пройдено: 100% (1/" + dataGridView1.Rows.Count + ")";
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -19,6 +29,11 @@ namespace hd.forms
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new TestForm("test.json").Show();
         }
     }
 }
